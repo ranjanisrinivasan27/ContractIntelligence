@@ -1,8 +1,3 @@
-
-
----
-
-````markdown
 # ⚖️ Contract Intelligence & Compliance Platform
 
 An AI-powered full-stack application for intelligent legal document analysis, featuring clause classification, risk assessment, compliance checking, contract comparison, and document-based Q&A.
@@ -56,7 +51,7 @@ An AI-powered full-stack application for intelligent legal document analysis, fe
 ```bash
 git clone https://github.com/ranjanisrinivasan27/ContractIntelligence.git
 cd ContractIntelligence
-````
+```
 
 ---
 
@@ -76,7 +71,7 @@ npm install
 
 3️⃣ Create a `.env` file inside the backend folder and add:
 
-```
+```env
 DATABASE_URL="postgresql://user:password@localhost:5432/legal_docs"
 GEMINI_API_KEY="your-gemini-api-key"
 PORT=5000
@@ -95,10 +90,7 @@ npm start
 ```
 
 Backend will run at:
-
-```
 http://localhost:5000
-```
 
 ---
 
@@ -123,10 +115,7 @@ pnpm dev
 ```
 
 Frontend will run at:
-
-```
 http://localhost:3000
-```
 
 ---
 
@@ -153,11 +142,11 @@ ContractIntelligence/
 
 ## 🔗 API Endpoints
 
-* POST `/api/documents/upload` → Upload & process documents
-* GET `/api/documents/analyses` → Retrieve analysis results
-* POST `/api/query/ask` → Contract Q&A
-* POST `/api/compare` → Compare contracts
-* POST `/api/compliance/:id/check` → Run compliance checks
+- POST `/api/documents/upload` → Upload & process documents  
+- GET `/api/documents/analyses` → Retrieve analysis results  
+- POST `/api/query/ask` → Contract Q&A  
+- POST `/api/compare` → Compare contracts  
+- POST `/api/compliance/:id/check` → Run compliance checks  
 
 ---
 
@@ -169,34 +158,20 @@ To automate legal contract review using AI, reduce manual effort, improve compli
 
 ## 🌱 Future Enhancements
 
-* Advanced risk scoring dashboard
-* Multi-framework compliance comparison
-* Cloud deployment
-* Improved AI accuracy
-* Role-based access control
+- Advanced risk scoring dashboard  
+- Multi-framework compliance comparison  
+- Cloud deployment  
+- Improved AI accuracy  
+- Role-based access control  
 
 ---
 
 ## 👩‍💻 Developed By
 
-Ranjani S
+Ranjani S  
 
 ---
 
 ## 📜 License
 
 This project is licensed under the MIT License.
-
-```
-
----
-
-You can now:
-
-1. Go to your repository  
-2. Edit `README.md`  
-3. Replace everything  
-4. Commit changes  
-
-If you want, I can now help you make it look even more professional with GitHub badges and UI polish 😎
-```
